@@ -18,5 +18,6 @@
 
 #Features:
 #Exception handling for invalid inputs
+#Hidden password input
 #Authorization check prior to file write
 #Dynamic filename based on epoch time of run
