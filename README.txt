@@ -3,7 +3,7 @@
 # Written by Tudor Ciolac
 # October 1st 2018
 # Prerequisites python3
-# Dependancies. Stock Python 3 Libs
+# Dependancies. Stock Python 3 Libs & requests (obtained via pip installer: https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3)
 
 #Purpose: Creates a CSV. Collumn one contains list of target emmail addresses provided by the user. Collumn two will include a Single Sign On (SSO) password, or Multi-Use Time Based Token. Additional options include a secondary SSO in collumn three.
 
