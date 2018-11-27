@@ -137,7 +137,6 @@ def storeValues():
 			if lineCount <= credCollect.lineCount:
 				lineCount = lineCount + 1
 				requestResult = str(sendRequest((line).replace("\n","")))
-#				print (requestResult)
 				if '"success":true' in requestResult:
 					value = re.search('"token":"(.*?)", "audit"', requestResult)
 					if credCollect.aBackup == True:
@@ -169,18 +168,7 @@ def createFile():
 
 def writeLine(contents):
 	credCollect.destFile.write (contents)
-	#currLine.writeLine.write(contents)
 
 ##### Script Begins #####
 
 grabCredentials()
-
-#createFile()
-#firstLine()
-
-
-
-#firstLine()
-#sendRequest()
-
-
