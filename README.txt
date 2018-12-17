@@ -9,6 +9,16 @@
 
 #Parameters Needed:
 #Source File: An authorized list of email addresses that require temporary passwords. Use line-breaks as delimiters
+'''
+  Example:
+    addresses.txt
+      user0@example0.net
+      user1@example0.net
+      user2@example1.net
+      user3@example1.net
+      user4@example1.net 
+      ..etc
+'''
 #Destination File: Output of results
 #cust: Either Cluster A (admin.a.hostedemail.com) or B (admin.b.hostedemail.com). Depends on Reseller's defaulted assignment at time of service signup. To determine see: https://help.opensrs.com/hc/en-us/articles/204770158-Which-email-cluster-am-I-on-
 #aUsername: Admin email address used to manage the end-user on the respective cluster. Make sure admin's permission profile is sufficient to support the request for desired users.
